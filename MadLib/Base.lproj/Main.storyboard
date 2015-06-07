@@ -31,7 +31,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="145" y="525" width="114" height="30"/>
+                                    <rect key="frame" x="143" y="570" width="114" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="pushButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XA5-qu-tae"/>
@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="52" width="345" height="30"/>
+                                    <rect key="frame" x="8" y="52" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="another name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tz6-c9-EjQ">
@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="90" width="345" height="30"/>
+                                    <rect key="frame" x="8" y="90" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dkz-mT-J4F">
@@ -58,7 +58,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="128" width="345" height="30"/>
+                                    <rect key="frame" x="8" y="128" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="verb ending in 'ing'" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ECb-He-gnC">
@@ -66,7 +66,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="166" width="345" height="30"/>
+                                    <rect key="frame" x="8" y="166" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="food" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NuI-6j-XA9">
@@ -74,7 +74,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="204" width="345" height="30"/>
+                                    <rect key="frame" x="188" y="14" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="dessert" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3FQ-JT-r62">
@@ -82,7 +82,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="242" width="345" height="30"/>
+                                    <rect key="frame" x="188" y="52" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="game" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="87r-M5-QET">
@@ -90,7 +90,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="280" width="345" height="30"/>
+                                    <rect key="frame" x="188" y="90" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="board game" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wS9-EZ-GRe">
@@ -98,7 +98,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="318" width="345" height="30"/>
+                                    <rect key="frame" x="188" y="128" width="153" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="insert name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6rO-M0-vtQ">
@@ -106,15 +106,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="14" width="345" height="30"/>
+                                    <rect key="frame" x="8" y="14" width="153" height="30"/>
                                 </variation>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsm-YK-j2i">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="232" width="329" height="330"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="music band" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ytj-xF-h5b">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="361" width="345" height="30"/>
+                                    <rect key="frame" x="188" y="171" width="153" height="30"/>
                                 </variation>
                             </textField>
                         </subviews>
@@ -132,6 +141,7 @@
                                 <exclude reference="87r-M5-QET"/>
                                 <exclude reference="wS9-EZ-GRe"/>
                                 <exclude reference="6rO-M0-vtQ"/>
+                                <exclude reference="zsm-YK-j2i"/>
                                 <exclude reference="ytj-xF-h5b"/>
                             </mask>
                         </variation>
@@ -148,12 +158,14 @@
                                 <include reference="87r-M5-QET"/>
                                 <include reference="wS9-EZ-GRe"/>
                                 <include reference="6rO-M0-vtQ"/>
+                                <include reference="zsm-YK-j2i"/>
                                 <include reference="ytj-xF-h5b"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="button" destination="sV2-nU-yr4" id="6HR-u6-TKR"/>
+                        <outlet property="story" destination="zsm-YK-j2i" id="zbs-bB-dO2"/>
                         <outlet property="textField09" destination="wS9-EZ-GRe" id="LHV-At-L9X"/>
                         <outlet property="textField1" destination="6rO-M0-vtQ" id="umZ-MB-z1X"/>
                         <outlet property="textField10" destination="ytj-xF-h5b" id="iEO-5o-pMG"/>

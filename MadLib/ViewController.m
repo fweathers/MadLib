@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *textField8;
 @property (weak, nonatomic) IBOutlet UITextField *textField09;
 @property (weak, nonatomic) IBOutlet UITextField *textField10;
+@property (weak, nonatomic) IBOutlet UILabel *story;
 
 @end
 
@@ -38,7 +39,8 @@
     NSString *boardGame = self.textField09.text;
     NSString *band = self.textField10.text;
     
-    NSLog(@"%@ was walking the %@, when (s)he was stopped by %@. The two decided to go to %@, and took off %@. While on their way, they stopped for %@ and shared %@. Once they finished their journey, they decided to play %@ and partake in competetive %@ with %@.", name, animal, name2, place, verbEndingInIng, food, dessert, game, boardGame, band);
+    NSString *story =[NSString stringWithFormat:@"%@ was walking the %@, when (s)he was stopped by %@. The two decided to go to %@, and took off %@. While on their way, they stopped for %@ and shared a %@. Once they finished their journey, they decided to play %@ and partake in competetive %@ with %@.", name, animal, name2, place, verbEndingInIng, food, dessert, game, boardGame, band];
+    self.story.text = story;
 }
 
 - (void)viewDidLoad {
